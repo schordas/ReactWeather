@@ -1,4 +1,4 @@
-React Starter project
+#React Starter project
 
 1. Download
 2. Open package.json and change the author
