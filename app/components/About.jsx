@@ -5,14 +5,15 @@ var About = (props) => {
 	return (
 		<div>
 			<h1 className="text-center">About</h1>
-			<h2 className="text-center">This app was created by Sam Chordas.</h2>
+			<h2 className="text-center">Created by Sam Chordas.</h2>
+			<p className="text-center">Based on a course by Andrew Mead.</p>
 			<p className="text-center">Check out some of my other stuff here:</p>
 			<ol>
 				<li>
-					<Link to="github.com/schordas">Github</Link>
+					<a href="github.com/schordas">Github</a>
 				</li>
 				<li>
-					<Link to="mjolnir.io">mjolnir.io</Link>
+					<a href="mjolnir.io">mjolnir.io</a>
 				</li>
 			</ol>
 		</div>
