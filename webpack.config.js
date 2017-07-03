@@ -30,7 +30,8 @@ module.exports = {
 			About: 'app/components/About.jsx',
 			Examples: 'app/components/Examples.jsx',
 			openWeatherMap: 'app/api/openWeatherMap.jsx',
-			ErrorModal: 'app/components/ErrorModal.jsx'
+			ErrorModal: 'app/components/ErrorModal.jsx',
+			applicationStyles: 'app/styles/app.css'
 		},
 		extensions: ['', '.js', '.jsx']
 	},
@@ -41,7 +42,7 @@ module.exports = {
 				query: {
 					presets: ['react', 'es2015', 'stage-0']
 				},
-				tests: /\.jsx?$/,
+				test: /\.jsx?$/,
 				exclude: /(node_modules|bower_components)/
 			}
 		]
