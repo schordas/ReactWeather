@@ -20,7 +20,7 @@ module.exports = {
 				return results;
 			}
 		}, function () {
-			throw new Error('Unable to fetch weather data');
+			throw new Error('Unable to fetch weather for that location.');
 		});
 	}
 }
