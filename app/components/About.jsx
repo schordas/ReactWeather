@@ -1,5 +1,5 @@
 var React = require('react');
-var {Link} = require()
+var {Link} = require('react-router');
 
 var About = (props) => {
 	return (
